@@ -16,18 +16,42 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+
+.allOfTheAbove{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: bisque;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.heading1{
+  font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightblue;
+}
+
+.text1{
+  font-size : 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(109, 200, 231);
+}
+
+.text2{
+  font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(29, 173, 221);
+}
+
+.contextInput{
+  width: 40vw;
+  height: 40vh;
+}
+
+.moodInput{
+  width: 20vw;
+  height: 20vh;
 }
